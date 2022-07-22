@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'neue-b';
+    src: url(./fonts/NeueMachina-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+    background-color: black;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    color: white;
+    font-size: 30px;
+    font-family: 'neue-b';
+}
