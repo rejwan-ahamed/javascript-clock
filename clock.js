@@ -16,6 +16,12 @@ function time() {
     if (hours == 0) {
         hours = 12
     }
+    if (seconds <10) {
+        seconds = "0"+seconds;
+    }
+    if (seconds == 00) {
+        seconds = 60;
+    }
     console.log(session)
 
     let mainTime = hours + ':' + minutes + ':' + seconds + ' ' + session;
