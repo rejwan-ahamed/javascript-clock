@@ -13,6 +13,11 @@ function time() {
         session = "PM"
         hours = hours - 12
     }
+    
+     if (hours == 12) {
+        session = "PM"
+    }
+    
     if (hours == 0) {
         hours = 12
     }
